@@ -1,0 +1,148 @@
+/*
+primary (café): #6f4e37
+secondary (naranja): #fc7e26 
+*/
+/* Recommended icon sizes */
+span.size-20 {
+  font-size: 20px;
+  font-variation-settings: "OPSZ" 20;
+}
+span.size-24 {
+  font-size: 24px;
+  font-variation-settings: "OPSZ" 24;
+}
+span.size-40 {
+  font-size: 40px;
+  font-variation-settings: "OPSZ" 40;
+}
+span.size-48 {
+  font-size: 48px;
+  font-variation-settings: "OPSZ" 48;
+}
+span.size-60 {
+  font-size: 60px;
+  font-variation-settings: "OPSZ" 60;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 500, "GRAD" 0, "opsz" 24;
+}
+
+nav.navbar {
+  background-color: #6f4e37 !important;
+}
+
+li.nav-item > a {
+  color: #ffffff;
+}
+li.nav-item > a.active {
+  color: #fc7e26 !important;
+}
+li.nav-item > a:hover {
+  color: #fc7e26;
+  cursor: pointer;
+}
+
+.a-primary {
+  text-decoration: none;
+  color: #fc7e26;
+  font-size: 24px;
+  transition: color 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.a-primary:hover {
+  color: #fff;
+  box-shadow: inset 310px 0 0 0 #fc7e26;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.button-primary {
+  border-radius: 4px;
+  border-color: #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  border-width: 0.5px;
+}
+.button-primary:hover {
+  border-radius: 4px;
+  border-color: #fc7e26;
+  background-color: #fc7e26;
+  box-shadow: 0.5px 1px 10px 3px #e99c66;
+  color: #ffffff;
+  border-width: 0.5px;
+  cursor: pointer;
+}
+.input-primary {
+  padding: 2px;
+  border-radius: 4px;
+  border-color: #ffffff;
+  border-width: 0.5px;
+}
+.input-primary:hover {
+  border-radius: 4px;
+  border-color: #fc7e26;
+  box-shadow: 0.5px 1px 10px 3px #e99c66;
+  border-width: 0.5px;
+}
+.input-primary:focus {
+  border-radius: 4px;
+  border-color: #fc7e26;
+  box-shadow: 0.5px 1px 10px 3px #e99c66;
+  border-width: 0.5px;
+}
+
+.welcome-section {
+  height: 800px;
+  background-color: #000000;
+  background-image: url("./../images/coffee_mug.png");
+  background-position: left;
+  background-repeat: repeat-y;
+  background-size: contain;
+  border-bottom: #fc7e26 dashed 2px;
+}
+.welcome-info-section {
+  background-color: #000000;
+}
+
+.title-text {
+  font-family: "Homemade Apple", serif;
+  font-size: 48px;
+  color: #ffffff;
+}
+.subtitle-text {
+  font-family: "Athiti", serif;
+  font-size: 30px;
+  color: #ffffff;
+}
+.caption-text {
+  font-family: "Athiti", serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+.caption-text-small {
+  font-family: "Athiti", serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.footer-bar {
+  height: 200px;
+  background-color: transparent;
+  background-image: url("./../images/coffee_bar.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+  position: relative;
+  bottom: 0;
+}
+
+.info-cards {
+  width: 18rem;
+  text-align: center;
+  color: #ffffff !important;
+  background-color: transparent !important;
+  border-color: #ffffff !important;
+  padding: 10px;
+  height: 268px !important;
+}

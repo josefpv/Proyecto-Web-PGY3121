@@ -4,6 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles/index.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Homemade+Apple"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Athiti"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,56 +28,318 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
-    <title>Coffee Planner</title>
+    <title>Coffee Rent</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">LOGO</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Inicio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Servicios</a>
-              </li>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.png" height="30px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Servicios</a>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link">Soporte</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="¿Algún producto?"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-primary" type="submit">
-                Buscar
-              </button>
-            </form>
+            <li class="nav-item">
+              <a class="nav-link">Soporte</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <span
+              class="material-symbols-outlined"
+              style="color: #fc7e26; cursor: pointer"
+            >
+              shopping_bag
+            </span>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid" style="padding: 0; background-color: #000000">
+      <div class="col welcome-section">
+        <div class="container text-center">
+          <div class="row align-items-center">
+            <div
+              class="col-12 align-self-center title-text"
+              style="padding-top: 20%"
+            >
+              Complementa tus espacios
+            </div>
+            <div
+              class="col-12 align-self-center title-text"
+              style="padding-left: 18%"
+            >
+              con una selección de tus cafés favoritos
+            </div>
+            <div class="col-12 align-self-center" style="margin-top: 100px">
+              <a href="#" class="a-primary">
+                <span class="material-symbols-outlined">
+                  add_shopping_cart </span
+                >Contrata Coffee Rent ahora...</a
+              >
+            </div>
           </div>
         </div>
-      </nav>
+      </div>
+      <div class="col-12 welcome-info-section">
+        <div class="row p-4 m-0">
+          <div class="col-12" style="padding-top: 30px; text-align: center">
+            <span
+              class="material-symbols-outlined size-60"
+              style="color: #fc7e26"
+            >
+              local_cafe
+            </span>
+          </div>
+          <div
+            class="col-12 subtitle-text"
+            style="padding-bottom: 40px; text-align: center"
+          >
+            Algunas razones por qué Coffee Rent es indispensable en tus
+            espacios...
+          </div>
+          <div class="col">
+            <div class="card info-cards">
+              <span class="material-symbols-outlined size-60"> early_on </span>
+
+              <div class="card-body">
+                <h5 class="card-title">Disponibilidad</h5>
+                <p class="card-text">
+                  Imagina llegar al lugar donde más pasas el día y tener siempre
+                  disponible tus cafés favoritos, desde que llegas hasta que te
+                  vayas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card info-cards">
+              <span class="material-symbols-outlined size-60"> style </span>
+
+              <div class="card-body">
+                <h5 class="card-title">Variedad</h5>
+                <p class="card-text">
+                  Coffee Rent te ofrece una variedad de cafés, complementos y
+                  cafeteras. Todo lo necesario para solo llegar y beber el de tu
+                  preferencia.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card info-cards">
+              <span class="material-symbols-outlined size-60">
+                event_repeat
+              </span>
+
+              <div class="card-body">
+                <h5 class="card-title">Programado</h5>
+                <p class="card-text">
+                  Programa tus refills y despreocupate por ir al super por más
+                  cafe, Coffee Rent se encargará de llevar e instalar tus
+                  suministros.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card info-cards">
+              <span class="material-symbols-outlined size-60">
+                history_edu
+              </span>
+
+              <div class="card-body">
+                <h5 class="card-title">Sin letra chica</h5>
+                <p class="card-text">
+                  Contrata y arma tu plan a tu medida y cancela cuando tú
+                  quieras, sin letra chica ni papeleos adicionales.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12" style="padding-top: 30px; text-align: center">
+            <span
+              class="material-symbols-outlined size-60"
+              style="color: #fc7e26"
+            >
+              psychology_alt
+            </span>
+          </div>
+          <div
+            class="col-12 subtitle-text"
+            style="padding-bottom: 40px; text-align: center"
+          >
+            ¿Aún tienes dudas?
+          </div>
+          <div
+            class="col-12 caption-text"
+            style="padding-bottom: 40px; text-align: center"
+          >
+            Revisa algunos lugares y testimonios de personas que ya cuentan con
+            Coffee Rent, o contáctanos y con gusto te ayudaremos.
+          </div>
+          <div class="col-12">
+            <div id="carouselExampleCaptions" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./images/station_1.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                    height="600px"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Santander Work/Café</h5>
+                    <p>
+                      Coffee Rent está presente en los distintos puntos de
+                      Santander Work/Café.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./images/station_2.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                    height="600px"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>ArtDesign Chile Ltda</h5>
+                    <p>
+                      ArtDesign Chile Ltda ya cuenta con su estación de café
+                      para sus clientes gracias a Coffee Rent.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./images/station_3.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                    height="600px"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Salón VIP Copa Airlines</h5>
+                    <p>
+                      Copa Airlines ofrece una variedad de cafés a sus pasajeros
+                      VIP del Aeropuerto Arturo Merino Benítez a través de
+                      Coffee Rent.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12" style="">
+        <div class="row p-4">
+          <div class="col" style="text-align: center">
+            <span class="material-symbols-outlined" style="color: #fc7e26">
+              phone_in_talk
+            </span>
+            <p class="caption-text-small">Contáctenos</p>
+          </div>
+          <div class="col" style="text-align: center">
+            <span class="material-symbols-outlined" style="color: #fc7e26">
+              store
+            </span>
+            <p class="caption-text-small">Ubicaciones</p>
+          </div>
+          <div class="col" style="text-align: center">
+            <span class="material-symbols-outlined" style="color: #fc7e26">
+              coffee_maker
+            </span>
+            <p class="caption-text-small">Equipos y suministros</p>
+          </div>
+          <div class="col" style="text-align: center">
+            <span class="material-symbols-outlined" style="color: #fc7e26">
+              location_on
+            </span>
+            <p class="caption-text-small">A dónde llegamos</p>
+          </div>
+          <div class="col" style="text-align: center">
+            <span class="material-symbols-outlined" style="color: #fc7e26">
+              eco
+            </span>
+            <p class="caption-text-small">Relación con el medio ambiente</p>
+          </div>
+          <div class="col" style="text-align: center">
+            <span class="material-symbols-outlined" style="color: #fc7e26">
+              copyright
+            </span>
+            <p class="caption-text-small">
+              Copyright © 2023 Coffee Rent. Todos los derechos reservados
+            </p>
+          </div>
+        </div>
+        <div class="footer-bar"></div>
+      </div>
     </div>
   </body>
 </html>
